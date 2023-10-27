@@ -9,3 +9,4 @@ yarn.lock
 .browserslistrc
 babel.config.js
 .jsconfig.json
+/dist
