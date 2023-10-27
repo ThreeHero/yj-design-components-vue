@@ -12,7 +12,7 @@ const props = defineProps({
 })
 
 const locale = computed(() => {
-  return language ?? zhCN
+  return props.language ?? zhCN
 })
 
 const attrs = useAttrs()
