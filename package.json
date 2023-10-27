@@ -1,0 +1,26 @@
+{
+  "name": "yj-design-components-vue",
+  "version": "0.0.1",
+  "description": "Vue3&antdv组件库",
+  "author": "Threehero",
+  "repository": "https://github.com/ThreeHero/yj-design-components-vue.git",
+  "license": "MIT",
+  "main": "./dist/yj_design_components_vue.common.js",
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "package": "vue-cli-service build --target lib ./src/components/index.js --name yj_design_components_vue --dest dist",
+    "publish": "npm publish"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "ant-design-vue": "4.x",
+    "core-js": "^3.8.3",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0"
+  }
+}
