@@ -12,7 +12,7 @@ yarn add yj-design-components-vue
 
 来安装工具库函数
 
-- v1.0.1
+- v1.0.2
   包含组件
 
   - App 包裹组件
