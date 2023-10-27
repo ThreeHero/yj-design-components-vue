@@ -8,5 +8,5 @@ yarn.lock
 .vscode/
 .browserslistrc
 babel.config.js
-.jsconfig.json
-/dist
+jscofing.json
+vue.config.js
