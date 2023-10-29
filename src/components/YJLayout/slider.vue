@@ -76,7 +76,7 @@ const yjLogo = computed(() => {
   .ant-menu {
     background-color: transparent;
   }
-  .ant-menu-submenu-selected {
+  /deep/.ant-menu-submenu-selected {
     .ant-menu-submenu-title {
       background-color: #fff;
     }
